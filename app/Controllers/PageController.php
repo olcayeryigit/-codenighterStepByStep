@@ -11,7 +11,9 @@ public function index(){
      // home.php görünümünü yükler
 }
 
-
+public function dashboard(){
+    return view('dashboard');
+}
 
 
 }
